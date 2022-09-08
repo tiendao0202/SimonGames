@@ -41,7 +41,7 @@ setTimeout(function(){
         $("#"+currentColour).removeClass("pressed");
     }, 100);
 }
-//Keypress
+//Keypress with any keys
 $(document).keypress(function() {
    if (started == false) {
     $("#level-title").text("Level " + level);
